@@ -1,0 +1,11 @@
+pers/mtx/handWriteIOC/annonation/Controller.class
+pers/mtx/handWriteIOC/service/TestService.class
+pers/mtx/handWriteIOC/annonation/RequestMapping.class
+pers/mtx/handWriteIOC/annonation/Service.class
+pers/mtx/handWriteIOC/service/impl/TestServiceImpl.class
+pers/mtx/handWriteIOC/main.class
+pers/mtx/handWriteIOC/controller/TestController.class
+pers/mtx/handWriteIOC/annonation/Mapping.class
+pers/mtx/handWriteIOC/servlet/DisPatchServlet.class
+pers/mtx/handWriteIOC/annonation/RequestParam.class
+pers/mtx/handWriteIOC/annonation/Autowired.class

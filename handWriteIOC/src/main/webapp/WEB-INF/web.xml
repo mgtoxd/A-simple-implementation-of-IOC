@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<web-app xmlns="http://java.sun.com/xml/ns/j2ee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee/web-app.2.4.xsd"
+         version="2.4">
+    <display-name>
+        spring-webapp
+    </display-name>
+    <description>
+        web app
+    </description>
+    <distributable/>
+    
+    <servlet>
+        <servlet-name>ioc</servlet-name>
+        <servlet-class>pers.mtx.handWriteIOC.servlet.DisPatchServlet</servlet-class>
+        <init-param>
+            <param-name>contextConfigLocation</param-name>
+            <param-value>/application.properties</param-value>
+        </init-param>
+        <load-on-startup>1</load-on-startup>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>ioc</servlet-name>
+        <url-pattern>/*</url-pattern>
+    </servlet-mapping>
+
+</web-app>
